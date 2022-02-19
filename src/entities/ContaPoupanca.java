@@ -14,4 +14,17 @@ public class ContaPoupanca {
 
 	public void transferir() {
 	}
+
+	public Integer getAgencia() {
+		return agencia;
+	}
+
+	public Integer getNumero() {
+		return numero;
+	}
+
+	public Double getSaldo() {
+		return saldo;
+	}
+	
 }
